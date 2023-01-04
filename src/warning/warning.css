@@ -1,0 +1,25 @@
+.con {
+  display: flex;
+  background: black;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+.con .a {
+  text-decoration: none;
+  color: goldenrod;
+  margin: 0 4px;
+}
+.con .p {
+  color: white;
+  cursor: pointer;
+}
+
+@media all and (max-width: 750px) {
+  .con {
+    width: 100%;
+    margin-left: -14px;
+  }
+  .con .p {
+    font-size: 12px;
+  }
+}

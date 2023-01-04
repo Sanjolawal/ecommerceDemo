@@ -14,12 +14,8 @@ const Menus = () => {
 
   return (
     <div className="menus">
-      <NavLink to="/" title="Home">
-        HOME
-      </NavLink>
-      <NavLink
-        to="/login"
-        title="Login"
+      <a title="Home">HOME</a>
+      <a
         className={
           location.pathname === `/dashboard`
             ? ``
@@ -27,10 +23,8 @@ const Menus = () => {
         }
       >
         {location.pathname === `/dashboard` ? `LOGOUT` : `LOGIN`}
-      </NavLink>
-      <NavLink
-        to="/login"
-        title="Signup"
+      </a>
+      <a
         className={
           location.pathname === `/dashboard`
             ? ``
@@ -39,7 +33,7 @@ const Menus = () => {
         ref={remove}
       >
         {location.pathname === `/dashboard` ? `` : `SIGNUP`}
-      </NavLink>
+      </a>
       <a title="Categories">CATEGORIES</a>
       <a title="Mens's">MEN'S</a>
       <a title="Women's">WOMEN'S</a>

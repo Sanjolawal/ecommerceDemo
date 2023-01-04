@@ -6,6 +6,7 @@ import MobileNavbar from "./mobileNavbar/mobileNavbar";
 import Mobilemenu from "./mobileMenu/mobileMenu";
 import { useState } from "react";
 import Dashboard from "./dashboard/dashboard";
+import Warning from "./warning/warning";
 
 function App() {
   const [first, setfirst] = useState(false);
@@ -17,6 +18,7 @@ function App() {
   return (
     <div>
       <Mobilemenu name={changeState} state={first} />
+      <Warning />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />

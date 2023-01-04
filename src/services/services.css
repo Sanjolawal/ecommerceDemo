@@ -21,7 +21,7 @@
   margin: 3px 0;
   font-size: 17px;
 }
-.services .con {
+.services .conned {
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -29,20 +29,20 @@
   justify-self: start;
   padding: 8px 22px;
 }
-.con .h1,
-.con .p {
+.conned .h1,
+.conned .p {
   font-size: 16px;
   color: rgb(0, 0, 0, 0.55);
   text-align: start;
 }
-.con .p {
+.conned .p {
   font-size: 14px;
 }
-.con .icon {
+.conned .icon {
   font-size: 46px;
   color: rgb(255, 143, 156);
 }
-.con .icon:hover {
+.conned .icon:hover {
   color: rgb(0, 0, 0, 0.55);
 }
 
@@ -55,13 +55,13 @@
     grid-template-columns: repeat(5, 20%);
   }
 
-  .services .con {
+  .services .conned {
     display: block;
     cursor: pointer;
     padding: 8px 22px;
     text-align: center;
   }
-  .con .section {
+  .conned .section {
     text-align: center;
   }
 }
@@ -80,7 +80,7 @@
     display: grid;
     grid-template-columns: repeat(2, 50%);
   }
-  .services .con {
+  .services .conned {
     display: flex;
     align-items: center;
     cursor: pointer;

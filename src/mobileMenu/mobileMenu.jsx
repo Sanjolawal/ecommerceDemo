@@ -25,44 +25,44 @@ const Mobilemenu = (props) => {
         }
       >
         <h1 className="h1">SANJO</h1>
-        <NavLink
-          to="/"
+        <a
+          // to="/"
           title="Home"
-          onClick={() => {
-            name();
-          }}
+          // onClick={() => {
+          //   name();
+          // }}
         >
           HOME
-        </NavLink>
-        <NavLink
-          to="/login"
+        </a>
+        <a
+          // to="/login"
           title="Login"
-          className={
-            location.pathname === `/dashboard`
-              ? ``
-              : `animate__animated animate__heartBeat animate__infinite`
-          }
-          onClick={() => {
-            name();
-          }}
+          // className={
+          //   location.pathname === `/dashboard`
+          //     ? ``
+          //     : `animate__animated animate__heartBeat animate__infinite`
+          // }
+          // onClick={() => {
+          //   name();
+          // }}
         >
           {location.pathname === `/dashboard` ? `LOGOUT` : `LOGIN`}
-        </NavLink>
-        <NavLink
-          to="/login"
+        </a>
+        <a
+          // to="/login"
           title="Signup"
-          className={
-            location.pathname === `/dashboard`
-              ? ``
-              : `animate__animated animate__heartBeat animate__infinite`
-          }
-          onClick={() => {
-            name();
-          }}
+          // className={
+          //   location.pathname === `/dashboard`
+          //     ? ``
+          //     : `animate__animated animate__heartBeat animate__infinite`
+          // }
+          // onClick={() => {
+          //   name();
+          // }}
           ref={remove}
         >
           {location.pathname === `/dashboard` ? `` : `SIGNUP`}
-        </NavLink>
+        </a>
         <a title="Categories">CATEGORIES</a>
         <a title="Mens's">MEN'S</a>
         <a title="Women's">WOMEN'S</a>

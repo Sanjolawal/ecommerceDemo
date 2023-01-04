@@ -5,7 +5,7 @@ const MobileNavbar = (props) => {
   const { name } = props;
   return (
     <div className="mobileNavbar">
-      <NavLink to="/" className="a">
+      <NavLink className="a">
         <ion-icon name="home-outline" class="mobileIcon"></ion-icon>
       </NavLink>
       <NavLink className="a">
