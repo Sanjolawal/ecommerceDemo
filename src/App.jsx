@@ -20,9 +20,9 @@ function App() {
       <Mobilemenu name={changeState} state={first} />
       <Warning />
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
         <Route path="/login" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/" element={<Dashboard />} />
       </Routes>
       <Footer />
       <MobileNavbar name={changeState} state={first} />
